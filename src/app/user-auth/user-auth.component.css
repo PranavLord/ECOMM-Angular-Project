@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+.user-auth {
+    background: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px; /* Adds space from the top */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-auth:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.user-auth h1 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.common-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.common-form a{
+    color: #87CEEB;
+    cursor: pointer;
+}
+
+.form-input {
+    padding: 14px;
+    font-size: 1.1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #f7f7f7;
+}
+
+.form-input:focus {
+    border-color: #87CEEB;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(135, 206, 235, 0.3);
+}
+
+.form-button {
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    color: white;
+    padding: 14px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.form-button:hover {
+    background: linear-gradient(135deg, #ff5e62, #ff9966);
+    transform: translateY(-3px);
+}
+
+a {
+    font-size: 0.9rem;
+    color: #1e90ff;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff5e62;
+}
+
+.error-msg{
+    color: Red;
+}

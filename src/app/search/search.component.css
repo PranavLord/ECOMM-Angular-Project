@@ -1,0 +1,36 @@
+.search-item{
+    margin: 25px auto;
+    width: 800px;
+    border-top: 1px solid #ddd;
+    padding:10px;
+}
+
+.search-item img{
+    width: 100%;
+    object-fit: contain;
+    height: 150px;
+}
+
+.search-item h6{
+    font-size: 24px;
+    color: blueviolet;
+}
+
+.search-item p{
+    margin: 5px;
+}
+
+.search-item span{
+    margin-right: 10px;
+}
+
+.no-found-product h4{
+    text-align: center;
+    color: rgb(133, 36, 44);
+}
+
+.no-found-product img{
+    width: 100%;
+    object-fit:fill;
+    height: 550px;
+}

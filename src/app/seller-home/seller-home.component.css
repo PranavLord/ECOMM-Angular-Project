@@ -1,0 +1,37 @@
+table {
+    text-align: left;
+    color: #3c7ba8;
+    border-collapse: collapse;
+    border: 2px solid #3c7ba8; /* Thicker border for the whole table */
+    background-color: #e6efc9;
+}
+
+table th {
+    border: 2px solid #3c7ba8; /* Thicker border for header cells */
+    border-bottom: 2px solid #3c7ba8; /* Add bottom border to header cells */
+    background-color: #4c7b7b; /* Background color for header cells */
+    padding: 10px;
+    min-height: 160px;
+    color: rgb(27, 221, 49); /* Text color for header cells */
+}
+
+table td {
+    border: 1px solid #3c7ba8;
+    padding: 10px;
+    min-height: 160px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.btn{
+    margin-top: 60px;
+    color: #202121;
+    background-color: #3c7ba8;
+}
+
+.adjust-update-link{
+    margin-left: 10px;
+}

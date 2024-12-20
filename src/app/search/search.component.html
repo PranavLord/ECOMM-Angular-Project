@@ -1,0 +1,17 @@
+<div class="no-found-product" *ngIf="message">
+    <h4>{{message}}</h4>
+    <img src="https://2.bp.blogspot.com/-X9sVvOD0hrs/W5cz8WKyknI/AAAAAAAAEKI/s6mNIUQdsy4KGnCgtF1VSZlnj237ArxawCLcBGAs/s1600/not%2Bfound.gif" alt="">
+</div>   
+<div class="row search-item" *ngFor="let item of searchResult">
+    <div class="col-sm-3">
+        <a routerLink="/details/{{item.id}}">
+            <img src="{{item.Image}}" alt="">
+        </a>
+    </div>
+    <div class="col-sm-8 details">
+        <h6><a routerLink="/details/{{item.id}}">{{item.Name}}</a></h6>
+        <p><b>Price:{{item.Price}}</b></p>
+        <p><span>Color:{{item.Color}}</span><span>Category {{item.Category}}</span></p>
+        <p>{{item.Description}}</p>
+    </div>
+</div>

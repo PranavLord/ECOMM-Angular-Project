@@ -1,0 +1,131 @@
+.product-details {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 40px; /* Adds space from the top */
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .details {
+    padding-left: 20px;
+  }
+  
+  .product-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .product-price {
+    font-size: 1.8rem;
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .color-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .product-color {
+    border: 2px solid #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .product-category {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .product-description {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #666;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  .quantity-group {
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+    align-items: center;
+  }
+  
+  .quantity-btn {
+    padding: 5px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quantity-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .quantity-input {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  

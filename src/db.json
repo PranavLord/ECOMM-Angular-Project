@@ -1,0 +1,331 @@
+{
+  "seller": [
+    {
+      "name": "Pranav",
+      "password": "123",
+      "email": "Pranav@seller.com",
+      "id": "f5f9"
+    },
+    {
+      "id": "3b73",
+      "name": "test1",
+      "password": "123",
+      "email": "test1@seller.com"
+    },
+    {
+      "name": "test3",
+      "password": "123",
+      "email": "test3@seller.com",
+      "id": "BNAQvFy"
+    },
+    {
+      "name": "test4",
+      "password": "123",
+      "email": "test4@seller.com",
+      "id": "kCJfKIa"
+    },
+    {
+      "name": "test5",
+      "password": "123",
+      "email": "test5@seller.com",
+      "id": "P0y1vtt"
+    },
+    {
+      "name": "vicky",
+      "password": "123",
+      "email": "vicky@seller.com",
+      "id": "uSCntEz"
+    },
+    {
+      "name": "test6",
+      "password": "123",
+      "email": "test6@seller.com",
+      "id": "2NZhg7v"
+    },
+    {
+      "name": "test7",
+      "password": "123",
+      "email": "test7@seller.com",
+      "id": "1wU161-"
+    },
+    {
+      "name": "test8",
+      "password": "123",
+      "email": "test8@seller.com",
+      "id": "VAqSYTs"
+    },
+    {
+      "name": "Aman",
+      "password": "123",
+      "email": "aman@seller.com",
+      "id": "mG0VQzg"
+    },
+    {
+      "name": "kansihka",
+      "password": "123",
+      "email": "kanishka@seller.com",
+      "id": "rv3oAkj"
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": "YBXch54"
+    },
+    {
+      "name": "bgp",
+      "password": "123",
+      "email": "bgp@seller.com",
+      "id": "StstvPS"
+    }
+  ],
+  "products": [
+    {
+      "Name": "iPhone 14",
+      "Price": "100000",
+      "Color": "Black",
+      "Category": "Mobile",
+      "Description": "Quality Product",
+      "Image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-3.jpg",
+      "id": "9ef7e"
+    },
+    {
+      "Name": "Samsung M 34",
+      "Price": "250001",
+      "Color": "blue",
+      "Category": "Mobile",
+      "Description": "samsung product",
+      "Image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m34-5g-3.jpg",
+      "id": "3cbx4"
+    },
+    {
+      "id": "5esa2",
+      "Name": "one plus nord",
+      "Price": "30000",
+      "Color": "green",
+      "Category": "Mobile",
+      "Description": "one plus phone",
+      "Image": "https://m.media-amazon.com/images/I/41Xe96WtZoL._SX300_SY300_QL70_FMwebp_.jpg"
+    },
+    {
+      "id": "d9hfd",
+      "Name": "Vivo V30",
+      "Price": "25000",
+      "Color": "blue",
+      "Category": "Mobile",
+      "Description": "Vivo phone",
+      "Image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-v30-1.jpg"
+    },
+    {
+      "id": "e2cda",
+      "Name": "HP",
+      "Price": "50000",
+      "Color": "Silver",
+      "Category": "Laptop",
+      "Description": "HP Laptop",
+      "Image": "https://5.imimg.com/data5/JM/PC/MY-26541044/hp-pavilion-x360-14m-ba013dx-1000x1000.jpg"
+    },
+    {
+      "Name": "Nike Shoes",
+      "Price": "5235",
+      "Color": "Black",
+      "Category": "Shoes",
+      "Description": "Formal Shoes",
+      "Image": "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/2560w/products/26009/239573/black-designer-formal-oxford-shoes-for-men-wedding-shoes-leather-italy-pointed-toe-mens-dress-shoes__55311.1549627134.jpg?c=2",
+      "id": "rcalaia"
+    },
+    {
+      "Name": "Samsung Table",
+      "Price": "24999",
+      "Color": "Black",
+      "Category": "Tablet",
+      "Description": "Samsung Handy Tablet",
+      "Image": "https://tse4.mm.bing.net/th?id=OIP.jR02VJ3-dhanuIQebLYG6gHaE7&pid=Api&P=0&w=300&h=300",
+      "id": "9k4RrWA"
+    },
+    {
+      "Name": "Drawing Book",
+      "Price": "999",
+      "Color": "white",
+      "Category": "Book",
+      "Description": "Drawing Book",
+      "Image": "https://img1.exportersindia.com/product_images/bc-full/dir_19/545523/drawing-book-1661917.jpg",
+      "id": "vhqJRAF"
+    },
+    {
+      "Name": "Slippers",
+      "Price": "2199",
+      "Color": "Silver",
+      "Category": "FootWear",
+      "Description": "Fancy slippers",
+      "Image": "https://tse1.mm.bing.net/th?id=OIP.kS2CVkcRFS0DHK9ZRruO_wHaHa&pid=Api&P=0&w=300&h=300",
+      "id": "ZdOuqCV"
+    }
+  ],
+  "user": [
+    {
+      "name": "user",
+      "email": "use@user.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "user1",
+      "email": "user1@user.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "kashyap",
+      "email": "kashyap@user.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "tony",
+      "email": "tony@user.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "pranav",
+      "email": "pranav@user.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "user2",
+      "email": "User2@user.com",
+      "password": "123",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "Name": "one plus nord",
+      "Price": "30000",
+      "Color": "green",
+      "Category": "Mobile",
+      "Description": "one plus phone",
+      "Image": "https://m.media-amazon.com/images/I/41Xe96WtZoL._SX300_SY300_QL70_FMwebp_.jpg",
+      "quantity": 1,
+      "userId": 4,
+      "productId": "5esa2",
+      "id": 2
+    },
+    {
+      "Name": "iPhone 14",
+      "Price": "100000",
+      "Color": "Black",
+      "Category": "Mobile",
+      "Description": "Quality Product",
+      "Image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-3.jpg",
+      "quantity": 1,
+      "userId": 4,
+      "productId": "9ef7e",
+      "id": 6
+    },
+    {
+      "Name": "iPhone 14",
+      "Price": "100000",
+      "Color": "Black",
+      "Category": "Mobile",
+      "Description": "Quality Product",
+      "Image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-3.jpg",
+      "quantity": 1,
+      "userId": 4,
+      "productId": "9ef7e",
+      "id": 7
+    },
+    {
+      "Name": "one plus nord",
+      "Price": "30000",
+      "Color": "green",
+      "Category": "Mobile",
+      "Description": "one plus phone",
+      "Image": "https://m.media-amazon.com/images/I/41Xe96WtZoL._SX300_SY300_QL70_FMwebp_.jpg",
+      "quantity": 1,
+      "productId": "5esa2",
+      "userId": 4,
+      "id": 10
+    },
+    {
+      "Name": "iPhone 14",
+      "Price": "100000",
+      "Color": "Black",
+      "Category": "Mobile",
+      "Description": "Quality Product",
+      "Image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-3.jpg",
+      "quantity": 1,
+      "userId": 4,
+      "productId": "9ef7e",
+      "id": 11
+    },
+    {
+      "Name": "iPhone 14",
+      "Price": "100000",
+      "Color": "Black",
+      "Category": "Mobile",
+      "Description": "Quality Product",
+      "Image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-3.jpg",
+      "quantity": 1,
+      "userId": 4,
+      "productId": "9ef7e",
+      "id": 12
+    },
+    {
+      "Name": "iPhone 14",
+      "Price": "100000",
+      "Color": "Black",
+      "Category": "Mobile",
+      "Description": "Quality Product",
+      "Image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-3.jpg",
+      "quantity": 5,
+      "userId": 4,
+      "productId": "9ef7e",
+      "id": 13
+    }
+  ],
+  "orders": [
+    {
+      "email": "kashyap@user.com",
+      "address": "bhagalpur",
+      "contact": "7658793246",
+      "totalPrice": 650101,
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "email": "kashyap@user.com",
+      "address": "sdfsfd",
+      "contact": "434545",
+      "totalPrice": 650101,
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "email": "kashyap@user.com",
+      "address": "ddsfds",
+      "contact": "453453",
+      "totalPrice": 180100,
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "email": "kashyap@user.com",
+      "address": "delhi",
+      "contact": "7647865678",
+      "totalPrice": 510100,
+      "userId": 3,
+      "id": 4
+    },
+    {
+      "email": "user1@user.com",
+      "address": "testuser",
+      "contact": "567443",
+      "totalPrice": 355100,
+      "userId": 2,
+      "id": 5
+    }
+  ]
+}

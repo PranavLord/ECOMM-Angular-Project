@@ -1,0 +1,97 @@
+/* Flexbox styling for nav */
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.logo-container h1 {
+    margin: 0;
+    font-size: 1.5rem; /* Adjust logo size if needed */
+}
+
+/* Adjusted width for search bar */
+.nav-search {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 400px;
+    margin-left: 20px; /* Add space between logo and search */
+}
+
+.nav-search input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-right: 5px;
+    background-color: aqua
+}
+
+.nav-search button {
+    padding: 5px 10px;
+    background-color: aqua;
+}
+
+.menu-links ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+/* Adjust font size and padding for menu items */
+.menu-links ul li a {
+    text-decoration: none;
+    color: #a51ddf;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.menu-links ul li a:hover {
+    color: #007bff;
+}
+
+/* Additional styling for the dropdown */
+.suggested-result {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+    margin-top: 5px;
+    z-index: 1;
+    top: 40px;
+    z-index: 10;
+    display: list-item !important;
+    width: 300px;
+    list-style-type: none;
+}
+
+
+.suggested-result li:hover {
+    background-color: #f1f1f1;
+}
+
+  .suggested-result li {
+    padding:5px;
+    border: 1px solid #ddd;
+    list-style-type: none;
+  }
+  .suggested-result li a{
+    cursor: pointer;
+    color: blueviolet;
+    list-style-type: none;
+  }
